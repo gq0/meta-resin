@@ -1,13 +1,15 @@
 Change log
 -----------
 
+* Resinhup: fix update failure on Intel NUC due to partition matching [Gergely]
+
 # v1.30 - 2017-08-16
 
 * Update supervisor to v6.1.3 [Pablo]
 * Do not deploy systemd's resolv.conf file but rather use the one we add through dnsmasq [Florin]
 * Conditionally use IMGDEPLOYDIR over DEPLOY_DIR_IMAGE [Florin]
 * Plymouth: change splash image scaling to full screen instead of half [Gergely]
-* Resinhip: bump default resinhup container to v1.2.1 (Alpine Linux) [Gergely]
+* Resinhup: bump default resinhup container to v1.2.1 (Alpine Linux) [Gergely]
 * Resinhup: add flag to update the supervisor to the one released with the target OS version [Gergely]
 * Fix connman unprotected_wifi_tether.patch splitout [Florin]
 * Update supervisor to v6.1.2 [Pablo]
